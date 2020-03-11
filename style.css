@@ -1,0 +1,83 @@
+.title {
+    color: red;
+}
+
+ nav {
+    display: flex;
+    align-items: center;
+    background-color: #333333;
+    /* position: fixed; */
+    width: 100%;
+    height: 100px;
+} 
+
+nav img {
+    float: left;
+    margin: 10px;
+    width: 80px;
+}
+
+nav ul {
+    width: 100%;
+    height: 100%;
+    display: inline;
+    list-style: none;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    /* vertical-align: top; */
+    margin: auto;
+    text-align: center;
+    font-family: serif;
+}
+
+.options {
+    display: flex;
+    float: left;
+    align-items: center;
+    margin-right: 10px;
+    height: 100%;
+    width: 10%;
+}
+
+.options:hover {
+    background-color: darkgray;
+}
+
+
+
+div img {
+    width: 100%;
+}
+
+.aboutus {
+    background-color: darkgray;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+}
+
+.about-area {
+    background-image: url("https://www.thebalancesmb.com/thmb/mA0K0dvFpdTPrGedp089Xl9toWU=/1883x1412/smart/filters:no_upscale()/GettyImages-522165476-579bb2785f9b589aa965eadf.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.header {
+    text-align: center;
+    color: white;
+}
+
+.history-content {
+    color: white;
+}
+
+footer {
+    background-color: #522e1deb;
+    color: white;
+    height: 50px;
+    padding-top: 20px;
+}
