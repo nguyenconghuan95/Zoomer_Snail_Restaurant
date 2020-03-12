@@ -7,6 +7,8 @@ h2 {
     text-transform: uppercase;
     font-size: 1.5rem;
     color: rgb(50, 50, 49);
+    margin-top: 0px;
+    padding-top: 10px;
 }
 
 .row {
@@ -76,6 +78,10 @@ h2 {
     color: white;
     background-color: orange;
     border-radius: 7px;
+}
+
+.order-button:hover{
+    background-color: rgba(255, 166, 0, 0.952);
 }
 
 iframe {
